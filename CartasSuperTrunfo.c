@@ -101,7 +101,7 @@ int main() {
     printf("PIB per capita: %f reais\n", pibpc2);
     printf("Super Poder: %f\n", superpoder2);
 
-    //Comparação das cartas
+    //Operações para comparação das características das cartas, amostragem "1" significando verdadeiro e amostragem "0" como falso.
 
     int populacao = populacao1 > populacao2;
     int area = area1 > area2;
