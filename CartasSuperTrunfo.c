@@ -85,7 +85,7 @@ int main() {
     float pibpc2 = pib2 / (float) populacao2;
      /*"Super Poder" somando todos os atributos numéricos (população, área, PIB, número de pontos turísticos, 
     PIB per capita e o inverso da densidade populacional – quanto menor a densidade, maior o "poder").*/
-    float superpoder2 = populacao2 + (float)area2 + (float)pib2 + pontos2 + (float)pibpc2 - (float)densidade2;
+    float superpoder2 = populacao2 + (float)area2 + (float)pib2 + pontos2 + (float)pibpc2 + (1 / (float)densidade2);
 
     //exibição das informações da carta 2
     printf("Carta 2 Registrada!\n");
